@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #fff;
+  margin: 30px;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 25px;
+}
+.zee {
+  margin-right: 55rem;
+}
+
+ul {
+  display: flex;
+  padding-top: 25px;
+}
+
+li {
+  list-style: none;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.mint {
+  display: flex;
+}
+
+.mint-src {
+  padding-right: 5rem;
+}
+
+.mint-2 {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  width: 425px;
+  /* height: 199px; */
+  left: 73px;
+  top: 182px;
+  font-family: "Rubik";
+  font-style: bold;
+  font-size: 36px;
+  line-height: 45px;
+  margin-top: 10rem;
+}
+
+.hero-text h1 {
+  text-transform: uppercase;
+  margin-left: 2.5rem;
+}
+
+.hero-text h1 span {
+  background: linear-gradient(to right, #f32170, #cf23cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.hero-text p {
+  margin-top: 1.5rem;
+  width: 425px;
+  margin-left: 2.5rem;
+  color: rgb(124, 122, 122);
+}
+
+.bg {
+  display: flex;
+  margin-top: 1.3rem;
+  margin-left: 2.5rem;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  width: 206px;
+  height: 53px;
+  left: 73px;
+  top: 412px;
+  background: #4b57f3;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #000;
+  background: #cf23cf;
+}
