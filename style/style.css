@@ -12,9 +12,13 @@ section {
 
 header {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin: 25px;
 }
+
+/* .zee {
+  margin-right: 10rem;
+} */
 
 ul {
   display: flex;
